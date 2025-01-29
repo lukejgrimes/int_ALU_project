@@ -4,3 +4,6 @@ https://www.overleaf.com/1977853635bcgkhshzmwpm#d4c6db
 
 ### Helpful Verilog Resource:
 https://hdlbits.01xz.net/wiki/Main_Page
+
+### Online Wave Viewer:
+https://vc.drom.io/
