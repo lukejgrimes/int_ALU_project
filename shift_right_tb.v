@@ -10,19 +10,19 @@ shift_right uut(in, out);
 initial begin
     $dumpfile("shift_right_tb.vcd");
     $dumpvars(0, shift_right_tb);
-    in = 4'b1101; // >>> 1110
+    in = 4'b1101; // >> 0110
     #10;
 
-    in = 4'b0101; // >>> 0010
+    in = 4'b0101; // >> 0010
     #10;
 
-    in = 4'b0010; // >>> 0001
+    in = 4'b0010; // >> 0001
     #10;
 
-    in = 4'b1111; // >>> 1111
+    in = 4'b1111; // >> 0111
     #10;
 
-    in = 4'b0000; // >>> 0000
+    in = 4'b0000; // >> 0000
     #10;
 
 
