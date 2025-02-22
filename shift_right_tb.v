@@ -2,8 +2,8 @@
 `include "shift_right.v"
 
 module shift_right_tb;
-reg signed [3:0] in;
-wire signed [3:0] out;
+reg [3:0] in;
+wire [3:0] out;
 
 shift_right uut(in, out);
 

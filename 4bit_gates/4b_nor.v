@@ -1,7 +1,6 @@
 module 4b_nor_gate(
-    input [3:0] a,
-    input [3:0] b,
-    output [3:0] y
+    input [3:0] a, b,
+    output [3:0] out
 );
-    assign y = ~(a | b);
+    assign out = ~(a | b);
 endmodule;
