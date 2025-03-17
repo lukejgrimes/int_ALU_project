@@ -1,3 +1,10 @@
-module 4b_add ();
+module _4b_add (
+    input [3:0] a, b, 
+    input cin, 
+    output [3:0] out,
+    output cout
+);
+
+    assign {cout, out} = a + b + cin; // Assign the most significant bit of intermediate sum to cout
     
 endmodule

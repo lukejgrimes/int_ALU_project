@@ -1,4 +1,4 @@
-module 4b_nor_gate(
+module _4b_nor_gate(
     input [3:0] a, b,
     output [3:0] out
 );
