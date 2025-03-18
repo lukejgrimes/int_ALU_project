@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-`include "shift_right.v"
+`include "1bit_gates/shift_right.v"
 
 module shift_right_tb;
 reg [3:0] in;

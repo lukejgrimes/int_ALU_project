@@ -15,8 +15,14 @@ initial begin
 
     a = 4'b0001;
     b = 4'b0001;
-    cin = 1'b1;
-    // Expected output 2
+    cin = 1'b0;
+    // Expected Output: out = 0, cout = 0
+    #10;
+
+    a = 4'b0111; // 7
+    b = 4'b1111; // 15
+    cin = 1'b0;
+    // Expected Output: out = -9, cout = 0
     #10;
 
     $display ( " Testing sub " ) ;

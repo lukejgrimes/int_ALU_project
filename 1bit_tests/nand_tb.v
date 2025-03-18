@@ -1,5 +1,5 @@
 `timescale 1 ns / 1 ns
-`include "nand_gate.v"
+`include "1bit_gates/nand_gate.v"
 
 module nand_tb;
 

@@ -7,9 +7,6 @@ module _4b_sub (
     output cout
 );
 
-wire [4:0] temp;
-assign temp = {1'b0, a} - {1'b0, b} - cin;
-assign cout = temp[4]
-assign out = temp[3:0]
+assign {cout, out} = a + ~b + cin; // Use two's complement addition
     
 endmodule

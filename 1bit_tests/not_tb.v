@@ -1,5 +1,5 @@
 `timescale  1ns/1ns
-`include "not_gate.v"
+`include "1bit_gates/not_gate.v"
 
 module not_tb;
 reg in;

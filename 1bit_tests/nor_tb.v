@@ -1,5 +1,5 @@
 `timescale  1ns/1ns
-`include "nor_gate.v"
+`include "1bit_gates/nor_gate.v"
 
 module nor_tb;
 reg a, b;
