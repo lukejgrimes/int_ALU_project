@@ -5,6 +5,6 @@ module _4b_add (
     output cout
 );
 
-    assign {cout, out} = a + b + cin; // Assign the most significant bit of intermediate sum to cout
+    assign {cout, out} = a + b + cin; // Assign the most significant bit of sum to cout
     
 endmodule

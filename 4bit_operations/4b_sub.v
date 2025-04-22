@@ -1,5 +1,3 @@
-// Don't Use yet, it doesn't work
-
 module _4b_sub (
     input [3:0] a, b,
     input cin,
