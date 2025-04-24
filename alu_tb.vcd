@@ -1,0 +1,303 @@
+$date
+	Wed Apr 23 23:32:14 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module alu_tb $end
+$var wire 4 ! out_2 [3:0] $end
+$var wire 4 " out [3:0] $end
+$var wire 1 # cout $end
+$var reg 4 $ a [3:0] $end
+$var reg 4 % b [3:0] $end
+$var reg 1 & cin $end
+$var reg 4 ' opcode [3:0] $end
+$scope module uut $end
+$var wire 4 ( a [3:0] $end
+$var wire 4 ) b [3:0] $end
+$var wire 1 & cin $end
+$var wire 4 * opcode [3:0] $end
+$var wire 4 + w_xor [3:0] $end
+$var wire 4 , w_xnor [3:0] $end
+$var wire 1 - w_sub_c $end
+$var wire 4 . w_sub [3:0] $end
+$var wire 4 / w_or [3:0] $end
+$var wire 4 0 w_not [3:0] $end
+$var wire 4 1 w_nor [3:0] $end
+$var wire 4 2 w_nand [3:0] $end
+$var wire 4 3 w_mult_lo [3:0] $end
+$var wire 4 4 w_mult_hi [3:0] $end
+$var wire 4 5 w_div_r [3:0] $end
+$var wire 4 6 w_div [3:0] $end
+$var wire 4 7 w_and [3:0] $end
+$var wire 1 8 w_add_c $end
+$var wire 4 9 w_add [3:0] $end
+$var reg 1 # cout $end
+$var reg 4 : out [3:0] $end
+$var reg 4 ; out_2 [3:0] $end
+$scope module add4 $end
+$var wire 4 < a [3:0] $end
+$var wire 4 = b [3:0] $end
+$var wire 1 & cin $end
+$var wire 4 > out [3:0] $end
+$var wire 1 8 cout $end
+$upscope $end
+$scope module and4 $end
+$var wire 4 ? a [3:0] $end
+$var wire 4 @ b [3:0] $end
+$var wire 4 A out [3:0] $end
+$upscope $end
+$scope module div4 $end
+$var wire 4 B a [3:0] $end
+$var wire 4 C b [3:0] $end
+$var wire 4 D remainder [3:0] $end
+$var wire 4 E out [3:0] $end
+$upscope $end
+$scope module mult4 $end
+$var wire 4 F a [3:0] $end
+$var wire 4 G b [3:0] $end
+$var wire 4 H out_lo [3:0] $end
+$var wire 4 I out_hi [3:0] $end
+$upscope $end
+$scope module nand4 $end
+$var wire 4 J a [3:0] $end
+$var wire 4 K b [3:0] $end
+$var wire 4 L out [3:0] $end
+$upscope $end
+$scope module nor4 $end
+$var wire 4 M a [3:0] $end
+$var wire 4 N b [3:0] $end
+$var wire 4 O out [3:0] $end
+$upscope $end
+$scope module not4 $end
+$var wire 4 P in [3:0] $end
+$var wire 4 Q out [3:0] $end
+$upscope $end
+$scope module or4 $end
+$var wire 4 R a [3:0] $end
+$var wire 4 S b [3:0] $end
+$var wire 4 T out [3:0] $end
+$upscope $end
+$scope module sub4 $end
+$var wire 4 U a [3:0] $end
+$var wire 4 V b [3:0] $end
+$var wire 1 & cin $end
+$var wire 4 W out [3:0] $end
+$var wire 1 - cout $end
+$upscope $end
+$scope module xnor4 $end
+$var wire 4 X a [3:0] $end
+$var wire 4 Y b [3:0] $end
+$var wire 4 Z out [3:0] $end
+$upscope $end
+$scope module xor4 $end
+$var wire 4 [ a [3:0] $end
+$var wire 4 \ b [3:0] $end
+$var wire 4 ] out [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b110 ]
+b1100 \
+b1010 [
+b1001 Z
+b1100 Y
+b1010 X
+b1101 W
+b1100 V
+b1010 U
+b1110 T
+b1100 S
+b1010 R
+b101 Q
+b1010 P
+b1 O
+b1100 N
+b1010 M
+b111 L
+b1100 K
+b1010 J
+b111 I
+b1000 H
+b1100 G
+b1010 F
+b0 E
+b1010 D
+b1100 C
+b1010 B
+b1000 A
+b1100 @
+b1010 ?
+b110 >
+b1100 =
+b1010 <
+b0 ;
+b1000 :
+b110 9
+18
+b1000 7
+b0 6
+b1010 5
+b111 4
+b1000 3
+b111 2
+b1 1
+b101 0
+b1110 /
+b1101 .
+1-
+b1001 ,
+b110 +
+b0 *
+b1100 )
+b1010 (
+b0 '
+0&
+b1100 %
+b1010 $
+0#
+b1000 "
+b0 !
+$end
+#10
+b111 "
+b111 :
+b1 '
+b1 *
+#20
+b1110 "
+b1110 :
+b100 '
+b100 *
+#30
+b1 "
+b1 :
+b10 '
+b10 *
+#40
+b110 "
+b110 :
+b110 '
+b110 *
+#50
+b1001 "
+b1001 :
+b101 '
+b101 *
+#60
+b101 "
+b101 :
+b11 '
+b11 *
+#70
+b1110 2
+b1110 L
+b1000 1
+b1000 O
+x#
+b1000 "
+b1000 :
+b1000 9
+b1000 >
+08
+b1 7
+b1 A
+b11 5
+b11 D
+b1111 3
+b1111 H
+b0 4
+b0 I
+b1100 0
+b1100 Q
+b111 /
+b111 T
+b1101 .
+b1101 W
+b111 '
+b111 *
+b101 %
+b101 )
+b101 =
+b101 @
+b101 C
+b101 G
+b101 K
+b101 N
+b101 S
+b101 V
+b101 Y
+b101 \
+b11 $
+b11 (
+b11 <
+b11 ?
+b11 B
+b11 F
+b11 J
+b11 M
+b11 P
+b11 R
+b11 U
+b11 X
+b11 [
+#80
+x#
+b1101 "
+b1101 :
+b1000 '
+b1000 *
+#90
+b1111 2
+b1111 L
+b1110 .
+b1110 W
+b1000 ,
+b1000 Z
+0#
+b1100 "
+b1100 :
+b111 9
+b111 >
+b0 7
+b0 A
+b1100 3
+b1100 H
+b111 +
+b111 ]
+b1001 '
+b1001 *
+b100 %
+b100 )
+b100 =
+b100 @
+b100 C
+b100 G
+b100 K
+b100 N
+b100 S
+b100 V
+b100 Y
+b100 \
+#100
+b11 !
+b11 ;
+b0 "
+b0 :
+b1010 '
+b1010 *
+#110
+b0 !
+b0 ;
+b1011 '
+b1011 *
+#130
